@@ -1,0 +1,1 @@
+//Create a function to print the first N terms of the Fibonacci series. Example: N=7 → 0 1 1 2 3 5 8

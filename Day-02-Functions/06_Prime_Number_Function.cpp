@@ -1,0 +1,1 @@
+//Create a function to check whether a number is prime or not. Example: 13 → Prime

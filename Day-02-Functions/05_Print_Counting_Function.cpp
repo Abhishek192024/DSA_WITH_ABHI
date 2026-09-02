@@ -1,0 +1,1 @@
+//Create a function to print numbers from 1 to N. Example: N=5 → 1 2 3 4 5

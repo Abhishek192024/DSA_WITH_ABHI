@@ -1,0 +1,1 @@
+//Create a function to check whether a number is a palindrome. Example: 121 → Palindrome

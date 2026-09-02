@@ -1,0 +1,1 @@
+//Using the power function, calculate a^b + c^d. Example: 2^3 + 3^2 = 17

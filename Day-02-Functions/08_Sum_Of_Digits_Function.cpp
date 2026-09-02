@@ -1,0 +1,1 @@
+//Create a function to find the sum of digits of a number. Example: 1234 → 10
