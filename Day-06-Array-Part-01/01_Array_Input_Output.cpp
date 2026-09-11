@@ -10,20 +10,22 @@
 // Hint: Use one loop for input and another for output.
 // Time: O(n), Space: O(n)
 
+
 #include <iostream>
 using namespace std;
 
 int main(){
     int n;
     cin >> n;
+    
     int arr[n];
 
-    for( int i = 0; i <= n; n++){
+    for( int i = 0; i <= n-1; i++){
         cin >> arr[i];
     }
 
-    for ( int i = 0; i <= n; n++){
-        cout << arr[i];
+    for ( int i = 0; i <= n-1; i++){
+        cout << arr[i] <<" ";
     }
 
     return 0;
