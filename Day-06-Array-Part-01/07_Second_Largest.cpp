@@ -19,30 +19,24 @@ int main() {
     cin >> n;
     int arr[n];
 
-    for (int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
 
     int largest = INT_MIN;
     int secondLargest = INT_MIN;
 
-    for (int i = 0; i < n; i++) {
-        if (arr[i] > largest) {
+    for (int i = 0; i < n; i++){
+        if(arr[i] > largest){
             secondLargest = largest;
             largest = arr[i];
-        } else if (arr[i] > secondLargest && arr[i] != largest) {
+        }
+        else if(arr[i] > secondLargest){
             secondLargest = arr[i];
         }
     }
+    cout << "Largest = " << largest << " " <<endl;
+    cout << "Second Largest = " <<secondLargest <<" " <<endl;
 
-    if (secondLargest == INT_MIN) {
-        cout << "No second largest element found." << endl;
-    } else {
-        cout << secondLargest << endl;
-    }
-
-    cout << "Largest: " << largest << endl;
-    cout << "Second Largest: " << secondLargest << endl;
-    
     return 0;
 }
