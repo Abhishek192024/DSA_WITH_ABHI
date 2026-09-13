@@ -14,3 +14,10 @@
 // Hint: Compare each element with the previous element.
 // Time: O(n), Space: O(n)
 
+#include <iostream>
+#include <climits>
+using namespace std;
+
+int main(){
+    return 0;
+}
